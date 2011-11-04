@@ -1,3 +1,9 @@
+# revision 24321
+# category Package
+# catalog-ctan /macros/latex/contrib/mbenotes
+# catalog-date 2011-10-17 17:40:54 +0200
+# catalog-license lppl1.2
+# catalog-version 2
 Name:		texlive-mbenotes
 Version:	2
 Release:	1
@@ -42,6 +48,7 @@ mechanisms in the package endnotes.
 %doc %{_texmfdistdir}/doc/latex/mbenotes/mbe.pdf
 %doc %{_texmfdistdir}/doc/latex/mbenotes/mbenotes.pdf
 %doc %{_texmfdistdir}/doc/latex/mbenotes/mbenotes.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ mechanisms in the package endnotes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
