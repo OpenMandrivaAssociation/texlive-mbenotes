@@ -1,12 +1,12 @@
-# revision 24321
+# revision 27777
 # category Package
 # catalog-ctan /macros/latex/contrib/mbenotes
-# catalog-date 2011-10-17 17:40:54 +0200
+# catalog-date 2012-09-22 16:17:18 +0200
 # catalog-license lppl1.2
-# catalog-version 2
+# catalog-version undef
 Name:		texlive-mbenotes
-Version:	2
-Release:	2
+Version:	20120922
+Release:	1
 Summary:	Notes in tables or images
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mbenotes
@@ -36,7 +36,7 @@ mechanisms in the package endnotes.
 %files
 %{_texmfdistdir}/tex/latex/mbenotes/mbenotes.sty
 %doc %{_texmfdistdir}/doc/latex/mbenotes/README
-%doc %{_texmfdistdir}/doc/latex/mbenotes/mbe.pdf
+%doc %{_texmfdistdir}/doc/latex/mbenotes/mbe.ps
 %doc %{_texmfdistdir}/doc/latex/mbenotes/mbenotes.pdf
 %doc %{_texmfdistdir}/doc/latex/mbenotes/mbenotes.tex
 
