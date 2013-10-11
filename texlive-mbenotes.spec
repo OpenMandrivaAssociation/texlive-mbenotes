@@ -1,12 +1,12 @@
-# revision 24321
+# revision 31813
 # category Package
 # catalog-ctan /macros/latex/contrib/mbenotes
-# catalog-date 2011-10-17 17:40:54 +0200
+# catalog-date 2013-10-02 17:34:38 +0200
 # catalog-license lppl1.2
 # catalog-version 2
 Name:		texlive-mbenotes
 Version:	2
-Release:	2
+Release:	3
 Summary:	Notes in tables or images
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mbenotes
@@ -36,7 +36,6 @@ mechanisms in the package endnotes.
 %files
 %{_texmfdistdir}/tex/latex/mbenotes/mbenotes.sty
 %doc %{_texmfdistdir}/doc/latex/mbenotes/README
-%doc %{_texmfdistdir}/doc/latex/mbenotes/mbe.pdf
 %doc %{_texmfdistdir}/doc/latex/mbenotes/mbenotes.pdf
 %doc %{_texmfdistdir}/doc/latex/mbenotes/mbenotes.tex
 
@@ -49,17 +48,3 @@ mechanisms in the package endnotes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2-2
-+ Revision: 753832
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2-1
-+ Revision: 718979
-- texlive-mbenotes
-- texlive-mbenotes
-- texlive-mbenotes
-- texlive-mbenotes
-
