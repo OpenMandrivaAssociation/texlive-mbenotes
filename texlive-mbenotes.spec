@@ -6,7 +6,7 @@
 # catalog-version 2
 Name:		texlive-mbenotes
 Version:	2
-Release:	12
+Release:	13
 Summary:	Notes in tables or images
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mbenotes
