@@ -9,7 +9,7 @@ Version:	2
 Release:	13
 Summary:	Notes in tables or images
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mbenotes
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/mbenotes
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mbenotes.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mbenotes.doc.tar.xz
